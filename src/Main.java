@@ -16,7 +16,7 @@ public class Main {
         // at the end of the do while loop.
 
         do {
-        System.out.print("Enter an integer between 0 and 100: ");
+        System.out.print("Enter an integer between 2 and 100: ");
         userInput = scan.nextInt();
 
         // Print statements that create a table like appearance for the data.
@@ -25,7 +25,7 @@ public class Main {
 
             // Lab asks to display all of the squared and cubed values from 1 to the value entered.
             // for loop below runs until the userInput is less than or equal to i.
-            for (int i = 1; i <= userInput; i++) {
+            for (int i = 2; i <= userInput; i++) {
                 numSquared = i * i;
                 numCubed = i * i * i;
 
